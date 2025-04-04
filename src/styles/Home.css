@@ -1,0 +1,107 @@
+.background {
+  height: 100vh; 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  position: relative;
+  padding: 0 20px;
+  margin-top: 5px; 
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  right: 20px; 
+  z-index: 10; 
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 15px; 
+}
+
+.navbar li {
+  color: black;
+  cursor: pointer;
+  font-size: 0.9rem; 
+}
+
+.content {
+  display: flex;
+  align-items: center; 
+  margin-left: 10px;
+}
+
+
+.welcome {
+  margin-left: -20px;
+  font-stretch: extra-expanded;
+  margin-bottom: -6px;
+  letter-spacing: 1.5px;
+  font-family: serif;
+  font-weight: 800;
+}
+
+.description {
+  max-width: 600px; 
+  padding-left: 20px; 
+}
+
+.description h1 {
+  font-size: 2rem; 
+  margin: 10px 0; 
+}
+
+.description p {
+  font-size: 1rem; 
+  margin: 0; 
+}
+
+.button-container {
+  display: flex; 
+  justify-content: center; 
+  gap: 5px; 
+  margin-top: 20px;
+  display: block;
+}
+
+
+.view-works-button,
+.get-intouch-button {
+  margin-top: 20px;
+  margin-right: 40px; 
+  padding: 10px 50px; 
+  background: linear-gradient(90deg, rgba(0, 123, 255, 1), rgba(0, 198, 255, 1)); 
+  color: white; 
+  border: none; 
+  border-radius: 25px; 
+  cursor: pointer; 
+  font-size: 1rem; 
+  transition: background-color 0.3s, transform 0.2s; 
+}
+
+.view-works-button:hover,
+.get-intouch-button:hover {
+  background: linear-gradient(90deg, rgba(0, 86, 179, 1), rgba(0, 161, 255, 1)); 
+  transform: scale(1.05); 
+}
+
+.theme-toggle-container {
+  position: fixed; 
+  top: 90px; 
+  right: 20px; 
+  z-index: 10;
+}
+
+.toggle-button {
+  background-color: transparent; 
+  border: none; 
+  cursor: pointer; 
+  font-size: 24px; 
+  transition: color 0.3s; 
+}
+
+.toggle-button:hover {
+  color: #3498db; 
+}

@@ -1,0 +1,37 @@
+.header-background {
+    background-image: url('../assets/images/flower.jpg'); 
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+}
+
+.header-content {
+    position: fixed; 
+    top: 20px; 
+    right: 20px; 
+    width: auto; 
+    z-index: 50; 
+}
+
+.nav-item {
+    background-color: #121220; 
+    border-radius: 20px; 
+    padding: 5px 10px; 
+    transition: background-color 0.2s; 
+    margin-left: 5px; 
+    font-weight: normal; 
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: rgb(11, 11, 11); 
+}
+
+nav {
+    display: flex; 
+    align-items: center; 
+}
+
+
+
+
