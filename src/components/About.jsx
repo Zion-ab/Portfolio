@@ -8,6 +8,7 @@ const About = () => {
       <div className="mb-8">
         <img 
           src={picture1}  
+          alt='pic'
           className="rounded-full w-60 h-60 object-cover shadow-lg border-4 border-gray-300"
         />
       </div>
