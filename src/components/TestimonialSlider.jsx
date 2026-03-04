@@ -66,10 +66,10 @@ const TestimonialSlider = () => {
                 </button>
                 <div className={`testimonial-card ${visible ? 'visible' : ''}`}>
                     <img 
-                        src={testimonials[currentIndex].photo} 
-                        alt={`${testimonials[currentIndex].name}'s photo`} 
-                        className="testimonial-photo" 
-                    />
+                    src={testimonials[currentIndex].photo} 
+                    alt={testimonials[currentIndex].name} 
+                    className="testimonial-photo" 
+                />
                     <h4>{testimonials[currentIndex].name}</h4>
                     <p>"{testimonials[currentIndex].quote}"</p>
                 </div>
