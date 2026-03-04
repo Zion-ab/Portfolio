@@ -10,8 +10,8 @@ import { faHeart } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Card.css';
 
 const Projects = () => {
-  const [likes, setLikes] = useState([0, 0, 0]); 
-  const [visibleCards, setVisibleCards] = useState([false, false, false]); 
+  const [likes, setLikes] = useState([0, 0, 0, 0, 0, 0]); 
+  const [visibleCards, setVisibleCards] = useState([false, false, false, false, false, false]); 
 
   const handleLike = (index) => {
     const newLikes = [...likes];
@@ -131,7 +131,7 @@ const ProjectCard = ({ title, description, technologies, repoLink, imageUrl, lik
 
   return (
     <div className={`project-card bg-blue-100 rounded-lg p-6 shadow-md transition-transform transform hover:scale-105 ${isVisible ? 'visible' : ''} flex items-center`}>
-      <img src={imageUrl} className="rounded-lg mr-4 w-1/3" />
+      <img src={imageUrl} alt={title || "Project image"} className="rounded-lg mr-4 w-1/3" />
       <div className="flex-1">
         <h3 className="text-xl font-bold mb-2 text-gray-800 dark:text-white">{title}</h3>
         <p className="text-base mb-4 text-gray-800 dark:text-white">{description}</p>
