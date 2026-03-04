@@ -25,7 +25,8 @@ const App = () => {
 
   return (
     <div>
-      <Header isVisible={headerVisible} />
+      {/* isVisible={headerVisible} */}
+      <Header  />
       <main className="flex-grow">
         <Home isDarkMode={isDarkMode} toggleTheme={toggleTheme} />
         <About />
