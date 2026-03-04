@@ -11,7 +11,7 @@ import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 
 const App = () => {
-  // const [headerVisible, setHeaderVisible] = useState(true);
+  const [headerVisible, setHeaderVisible] = useState(true);
   const [isDarkMode, setIsDarkMode] = useState(true); 
 
   useEffect(() => {
