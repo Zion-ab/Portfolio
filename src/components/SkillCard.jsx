@@ -2,8 +2,9 @@ import React from 'react';
 import '../styles/Card.css'; 
 
 const skills = [
-    { title: 'JavaScript', proficiency: 80, icon: 'fab fa-js', color: '#f7df1e' },
-    { title: 'React', proficiency: 75, icon: 'fab fa-react', color: '#61dafb' },
+    { title: 'Odoo', proficiency: 85, icon: 'fas fa-cogs', color: '#714B67' }, 
+    { title: 'JavaScript', proficiency: 80, icon: 'fab fa-js', color: '#b7a51cff' },
+    { title: 'React', proficiency: 90, icon: 'fab fa-react', color: '#45bcdcff' },
     { title: 'CSS', proficiency: 85, icon: 'fab fa-css3-alt', color: '#1572b6' },
     { title: 'Tailwind CSS', proficiency: 70, icon: 'fas fa-paint-brush', color: '#38b2ac' },
     { title: 'Adobe Photoshop', proficiency: 90, icon: 'fas fa-image', color: '#31a8ff' },

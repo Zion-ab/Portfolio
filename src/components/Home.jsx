@@ -15,7 +15,7 @@ const Home = ({ isDarkMode, toggleTheme }) => {
           </div>
 
           <h1>I'm <strong>Tsion Abebayehu</strong></h1>
-          <p>A Creative Graphic Designer and Frontend Developer</p>
+          <p>A Creative Frontend Developer, Odoo Developer and Graphic Designer</p>
           <p>
             Passionate about crafting beautiful and user-friendly web experiences. 
             I specialize in turning ideas into pixel-perfect designs and dynamic web applications. 
@@ -28,6 +28,9 @@ const Home = ({ isDarkMode, toggleTheme }) => {
           <div className="button-container">
             <a href="#projects">
               <button className="view-works-button">View Works</button>
+            </a>
+             <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <button className="view-works-button">View Resume</button>
             </a>
             <a href="#contact">
               <button className="get-intouch-button">Get in Touch</button>
